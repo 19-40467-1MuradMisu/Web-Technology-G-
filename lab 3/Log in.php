@@ -9,8 +9,8 @@
 <body>
 
   <?php
- $userErr ;$passwordErr ;
- $username ;$password  ;
+ $userErr =$passwordErr"" ;
+ $username =$password "" ;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 { 
@@ -58,9 +58,15 @@ function test_input($data) {
 <b>Password</b><br><br>
 <input type="text" name="Password">
  
-<br><br>
+<input type="checkbox" id="" name="Remmeber Me" value="">
+<label>Remember Me</label><br><br>
+
  
 <input type="submit" name="submit" value="Submit">
+  <a href=Forget password?> Forget password?  </a> 
+
+ 
+ 
 
 </form>
 
